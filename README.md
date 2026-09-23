@@ -67,7 +67,28 @@ A magic tee is normally characterised by two quantities:
 
 ## Observation (Measurement of isolation between E and H arms)
 
-*(Include your own table relevant to the experiment.)*
+| S.No | Input Arm | Output Arm | VSWR Meter Reading / Power (dB) | Isolation (dB) |
+| ---: | --------- | ---------- | ------------------------------: | -------------: |
+|    1 | E-arm     | H-arm      |                            1 dB |           1 dB |
+|    2 | H-arm     | E-arm      |                            1 dB |           1 dB |
+
+
+Isolation (dB)=−10log10​(PE​PH​​)
+
+PE=20dB
+
+PH=1dB
+
+Isolation=PE−PH=20-1
+
+=Isolation=19dB​
+
+
+| Input Arm | Side Arm 1 | Side Arm 2 |           Power Division |
+| --------- | ---------: | ---------: | -----------------------: |
+| H-arm     |       3 dB |       3 dB |          Equal, in phase |
+| E-arm     |       3 dB |       3 dB | Equal, 180° out of phase |
+
 
 ## Precautions
 
@@ -77,4 +98,6 @@ A magic tee is normally characterised by two quantities:
 
 ## Conclusion
 
-*(Write your own.)*
+Thus, the characteristics of the magic tee were studied and the isolation between the E-arm and H-arm was measured. The E-arm and H-arm are isolated from each other, and the power is equally divided between the two collinear arms.
+
+Isolation=19dB​
